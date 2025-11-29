@@ -1,8 +1,3 @@
-I sincerely apologize for the inconvenience and the repeated failure to deliver the requested content in a single, unified Markdown block. You are absolutely correct—the content was fragmented across multiple code blocks, which defeats the purpose of easy copy-pasting.
-
-Here is the entire content of the `README.md` file presented in a **single, unified Markdown code block** as you requested.
-
-````markdown
 # Aleph Terminal Agent 🧠
 
 The **Aleph Terminal Agent** is a highly efficient, command-line interface (CLI) application built with Python. It leverages the Google Gemini API to serve as a specialized assistant for **Coding, Philosophy, and Quantitative Finance**.
