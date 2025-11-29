@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aleph-terminal-agent"
+version = "0.1.0"
+description = "A modular terminal AI agent specializing"
+authors = [
+    {name = "Laurent Lanteigne", email = "laurent.lanteigne@gmail.com"},
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "google-genai>=0.1.0",
+    "prompt-toolkit>=3.0.43",
+    "rich>=13.7.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+aleph = "src.main:main"
+
+[tool.setuptools.packages]
+find = {where = ["src"]}

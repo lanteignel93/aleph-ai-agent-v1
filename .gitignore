@@ -1,0 +1,66 @@
+# ----------------------------------------------------
+# A. ENVIRONMENT / BUILD ARTIFACTS (CRITICAL EXCLUSIONS)
+# ----------------------------------------------------
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+.Python
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------------------------------------
+# B. APPLICATION DATA / USER-SPECIFIC DATA
+# ----------------------------------------------------
+
+# Secrets and configuration
+.env
+.envrc
+
+.aleph_command_history
+
+*.json
+!pyproject.toml   # EXCEPTION: We must keep pyproject.toml
+!package.json     # EXCEPTION: Keep node package managers file if present
+
+# Saved conversation history file
+chat_history.json 
+
+# ----------------------------------------------------
+# C. IDE / TOOLING (Optional but recommended)
+# ----------------------------------------------------
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+
+# VS Code
+.vscode/
+# Exclude the entire folder, or just specific local settings:
+# .vscode/settings.json
+# .vscode/launch.json
+# .vscode/tasks.json
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# OS Specific
+.DS_Store
+Thumbs.db
