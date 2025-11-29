@@ -20,7 +20,7 @@ This guide assumes you have Python >= 3.10, Git, and the ability to install Pyth
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/lanteignel93/aleph-ai-agent-v1
+git clone git@github.com:lanteignel93/aleph-ai-agent-v1.git
 cd aleph-terminal-agent
 ````
 
