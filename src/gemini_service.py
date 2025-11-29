@@ -7,7 +7,7 @@ from google.genai import types
 from google.genai.errors import APIError
 from typing import List, Dict, Generator, Optional
 from pathlib import Path
-from prompt_toolkit.patch_stdout import patch_stdout  # FIX: Imports patch_stdout
+from prompt_toolkit.patch_stdout import patch_stdout
 
 from .exceptions import LLMServiceError
 
